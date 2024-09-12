@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(90deg, #5100d4, #390044);
+  background-size: 200% 200%;
+  animation: moveGradient 10s linear infinite alternate;
+}
+
+@keyframes moveGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.navbar-custom {
+  background-color: rgba(31, 31, 31, 0.5);
+}
+
+.navbar-custom .nav-link:hover {
+  color: #00ff15;
+}
+.navbar-custom .nav-link {
+  color: #ffc107;
+}
+
+.card-custom-font {
+  font-family: 'Consolas', sans-serif;
+}
+
+.card-custom-font .card-title {
+  font-family: 'Consolas', sans-serif;
+  font-weight: 700;
+}
