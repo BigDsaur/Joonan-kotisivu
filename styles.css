@@ -1,9 +1,9 @@
 body {
   margin: 0;
   height: 100vh;
-  background: linear-gradient(90deg, #5100d4, #390044);
+  background: linear-gradient(90deg, #5100d4, #3f024b);
   background-size: 200% 200%;
-  animation: moveGradient 10s linear infinite alternate;
+  animation: moveGradient 8s linear infinite alternate;
 }
 
 @keyframes moveGradient {
@@ -34,3 +34,4 @@ body {
   font-family: 'Consolas', sans-serif;
   font-weight: 700;
 }
+
