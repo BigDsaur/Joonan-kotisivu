@@ -1,7 +1,7 @@
 body {
   margin: 0;
   height: 100vh;
-  background: linear-gradient(90deg, #5100d4, #3f024b);
+  background: linear-gradient(90deg, #3c019c, #3f024b);
   background-size: 200% 200%;
   animation: moveGradient 8s linear infinite alternate;
 }
@@ -16,15 +16,20 @@ body {
 }
 
 .navbar-custom {
-  background-color: rgba(31, 31, 31, 0.5);
+  background-color: rgba(66, 1, 92, 0.425);
 }
 
 .navbar-custom .nav-link:hover {
-  color: #00ff15;
+  color: #ff4d4d;
 }
 .navbar-custom .nav-link {
   color: #ffc107;
 }
+
+.navbar-nav .nav-link.active {
+  color: #b3ff00; /* Change this to your desired color */
+}
+
 
 .card-custom-font {
   font-family: 'Consolas', sans-serif;
@@ -34,4 +39,6 @@ body {
   font-family: 'Consolas', sans-serif;
   font-weight: 700;
 }
+
+
 
